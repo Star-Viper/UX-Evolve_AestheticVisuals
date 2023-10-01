@@ -1,0 +1,531 @@
+.homepage-child {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #37054d;
+    width: 390px;
+    height: 40px;
+  }
+  .time {
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 24.5px);
+    line-height: 16px;
+    font-weight: 600;
+  }
+  .battery-icon {
+    position: absolute;
+    top: 1.5px;
+    right: 0;
+    width: 26.5px;
+    height: 11.5px;
+  }
+  .div {
+    position: absolute;
+    top: 0;
+    right: 58.5px;
+    line-height: 16px;
+  }
+  .alarm-icon,
+  .bluetooth-icon {
+    position: absolute;
+    top: 3px;
+    right: -202.5px;
+    width: 14px;
+    height: 14px;
+    display: none;
+  }
+  .bluetooth-icon {
+    right: -217.5px;
+  }
+  .right-side {
+    position: absolute;
+    top: 3px;
+    right: 5.5px;
+    width: 90.5px;
+    height: 16px;
+    text-align: right;
+  }
+  .mobile-signal-icon {
+    position: relative;
+    width: 21px;
+    height: 14px;
+  }
+  .carrier {
+    position: relative;
+    letter-spacing: -0.05px;
+    line-height: 16px;
+    display: none;
+  }
+  .wifi-icon {
+    position: relative;
+    width: 15px;
+    height: 14px;
+  }
+  .left-side {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    text-align: left;
+  }
+  .statusbar-iphone-6-7-8-se {
+    position: absolute;
+    top: 10px;
+    left: calc(50% - 188px);
+    width: 375px;
+    height: 20px;
+    text-align: center;
+    font-size: var(--font-size-xs);
+    font-family: var(--default-regular-body);
+  }
+  .icon-magnifyingglass {
+    position: relative;
+    width: 15.63px;
+    height: 15.78px;
+  }
+  .placeholder {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+  }
+  .sf-symbol-microphone {
+    position: relative;
+    width: 11.88px;
+    height: 17.68px;
+  }
+  .searchfield {
+    position: absolute;
+    top: 58px;
+    left: 57px;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #628eff, #570475);
+    width: 319px;
+    height: 41px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: 14px;
+  }
+  .menu-icon,
+  .vector-icon {
+    position: absolute;
+    top: 33px;
+    left: 169px;
+    width: 96px;
+    height: 96px;
+    overflow: hidden;
+  }
+  .vector-icon {
+    height: 3.3%;
+    width: 8.97%;
+    top: 8.25%;
+    right: 88.72%;
+    bottom: 88.45%;
+    left: 2.31%;
+    max-width: 100%;
+    max-height: 100%;
+  }
+  .bg-hero {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-xl);
+    background-color: #00040c;
+  }
+  .a-special-offer,
+  .all-books-are {
+    position: absolute;
+    left: 0;
+    display: inline-block;
+  }
+  .a-special-offer {
+    width: 92.11%;
+    top: 58.62%;
+    letter-spacing: 0.05em;
+    line-height: 8.92px;
+  }
+  .all-books-are {
+    height: 44.83%;
+    width: 100%;
+    top: 0;
+    font-size: 12.55px;
+    line-height: 18.4px;
+    font-weight: 800;
+  }
+  .a-special-offer-for-all-book-l-parent,
+  .swipe-1-icon {
+    position: absolute;
+    height: 64.99%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 35.01%;
+    left: 0;
+  }
+  .swipe-1-icon {
+    height: 8.12%;
+    width: 15.82%;
+    top: 91.88%;
+    right: 10.58%;
+    bottom: 0;
+    left: 73.6%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .days1,
+  .p {
+    margin: 0;
+  }
+  .days1 {
+    font-size: 4.46px;
+    font-weight: 500;
+    color: #ffc6fc;
+  }
+  .days {
+    position: absolute;
+    top: 0;
+    left: 0;
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    text-transform: uppercase;
+  }
+  .hour1 {
+    margin: 0;
+    font-size: 4.46px;
+    font-weight: 500;
+    color: #dfadde;
+  }
+  .hour {
+    position: absolute;
+    top: 0;
+    left: 29.63%;
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    text-transform: uppercase;
+  }
+  .mint1 {
+    margin: 0;
+    font-size: 4.46px;
+    font-weight: 500;
+    color: #b58db6;
+  }
+  .mint {
+    position: absolute;
+    top: 0;
+    left: 59.45%;
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    text-transform: uppercase;
+  }
+  .sec1 {
+    margin: 0;
+    font-size: 4.46px;
+    font-weight: 500;
+    color: #d7abf1;
+  }
+  .sec {
+    position: absolute;
+    top: 0;
+    left: 87.35%;
+    letter-spacing: 0.1em;
+    line-height: 180%;
+    text-transform: uppercase;
+  }
+  .days-parent,
+  .group-wrapper {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .group-wrapper {
+    height: 14.94%;
+    width: 48.85%;
+    top: 67.23%;
+    right: 43.84%;
+    bottom: 17.83%;
+    left: 7.3%;
+    text-align: center;
+    font-size: 7.25px;
+    color: var(--color-tomato);
+  }
+  .group-parent,
+  .unsplash-icon {
+    position: absolute;
+    height: 85.58%;
+    width: 50.42%;
+    top: 11.51%;
+    right: 42.21%;
+    bottom: 2.91%;
+    left: 7.37%;
+  }
+  .unsplash-icon {
+    height: 86.99%;
+    width: 49.92%;
+    top: 6.6%;
+    right: 5.53%;
+    bottom: 6.42%;
+    left: 44.55%;
+    border-radius: var(--br-xl);
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .bg-hero-parent,
+  .group-child {
+    position: absolute;
+    top: 68px;
+    left: 2px;
+    width: 351px;
+    height: 20px;
+  }
+  .bg-hero-parent {
+    height: 19.85%;
+    width: 90.51%;
+    top: 16.37%;
+    right: 4.87%;
+    bottom: 63.78%;
+    left: 4.62%;
+    font-size: 10px;
+    color: var(--color-chocolate);
+    font-family: var(--font-inter);
+  }
+  .homepage-item,
+  .rectangle {
+    position: absolute;
+    top: 691px;
+    left: 0;
+    border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+    background-color: #250533;
+    box-shadow: 0-3px 4px #570475;
+    width: 390px;
+    height: 97px;
+  }
+  .homepage-item {
+    height: 0.76%;
+    width: 1.28%;
+    top: 92.51%;
+    right: 84.36%;
+    bottom: 6.73%;
+    left: 14.36%;
+    border-radius: var(--br-11xs);
+    background-color: #e08cff;
+    box-shadow: 0 0 8px 4px #570475;
+  }
+  .vector-icon1 {
+    height: 4.19%;
+    width: 11.54%;
+    top: 91.37%;
+    right: 79.23%;
+    bottom: 4.44%;
+    left: 9.23%;
+  }
+  .homepage-inner,
+  .vector-icon1,
+  .vector-icon2 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .homepage-inner {
+    height: 3.81%;
+    width: 9.88%;
+    top: 91.81%;
+    right: 61.78%;
+    bottom: 4.38%;
+    left: 28.33%;
+    border-radius: var(--br-11xs);
+  }
+  .vector-icon2 {
+    height: 4.82%;
+    width: 10.77%;
+    top: 91.37%;
+    right: 8.46%;
+    bottom: 3.81%;
+    left: 80.77%;
+  }
+  .image-8-icon,
+  .mask-group-icon,
+  .mask-group-icon1 {
+    position: absolute;
+    top: 714px;
+    left: 178px;
+    width: 45px;
+    height: 51px;
+    object-fit: cover;
+  }
+  .image-8-icon,
+  .mask-group-icon1 {
+    top: 717px;
+    left: 245px;
+    width: 39px;
+    height: 42px;
+  }
+  .image-8-icon {
+    top: 1.43px;
+    left: -1.53px;
+    border-radius: 1.92px;
+    width: 80.86px;
+    height: 120.35px;
+  }
+  .image-10-icon,
+  .image-11-icon,
+  .image-2-icon,
+  .image-9-icon {
+    position: absolute;
+    top: 1px;
+    left: 87.47px;
+    border-radius: 1.92px;
+    width: 82.07px;
+    height: 121.22px;
+    object-fit: cover;
+  }
+  .image-10-icon,
+  .image-11-icon,
+  .image-2-icon {
+    top: 1.43px;
+    left: 179.21px;
+    width: 80.86px;
+    height: 120.35px;
+  }
+  .image-11-icon,
+  .image-2-icon {
+    left: 269.59px;
+  }
+  .image-2-icon {
+    top: 0;
+    left: 359.9px;
+    border-radius: 1.99px;
+    width: 80.69px;
+    height: 123.38px;
+  }
+  .h-fantasy {
+    position: absolute;
+    top: 335px;
+    left: 18px;
+    width: 557px;
+    height: 119px;
+    overflow-x: auto;
+  }
+  .collectible-books,
+  .rare-engineering-books {
+    position: absolute;
+    top: 301px;
+    left: 18px;
+    font-size: var(--default-regular-body-size);
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    font-family: var(--font-roboto);
+  }
+  .rare-engineering-books {
+    top: 486px;
+    left: 19px;
+  }
+  .h-engineering-books-child {
+    position: relative;
+    width: 75.34px;
+    height: 121.2px;
+    object-fit: cover;
+  }
+  .h-engineering-books-inner,
+  .h-engineering-books-item {
+    position: relative;
+    width: 81.27px;
+    height: 122.74px;
+    object-fit: cover;
+  }
+  .h-engineering-books-inner {
+    width: 75.59px;
+    height: 105.51px;
+  }
+  .h-engineering-books-child1,
+  .rectangle-icon {
+    position: relative;
+    border-radius: 1.72px 1.72px 0 0;
+    width: 81.27px;
+    height: 117.76px;
+    object-fit: cover;
+  }
+  .h-engineering-books-child1 {
+    border-radius: 2.05px 2.05px 0 0;
+    width: 77px;
+    height: 108.65px;
+  }
+  .h-engineering-books {
+    position: absolute;
+    top: 515px;
+    left: -45px;
+    width: 550px;
+    overflow-x: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 9.2px;
+  }
+  .dock {
+    position: absolute;
+    top: 55px;
+    left: 54px;
+    border-radius: 29px;
+    background-color: rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(80px);
+    width: 326px;
+    height: 53px;
+  }
+  .icon-magnifyingglass1 {
+    position: absolute;
+    top: calc(50% - 321px);
+    right: 305.37px;
+    width: 15.63px;
+    height: 15.78px;
+  }
+  .placeholder1,
+  .sf-symbol-microphone1 {
+    position: absolute;
+    top: calc(50% - 325px);
+  }
+  .placeholder1 {
+    left: 93.63px;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    display: inline-block;
+    width: 247.49px;
+  }
+  .sf-symbol-microphone1 {
+    right: 23px;
+    width: 11.88px;
+    height: 17.68px;
+  }
+  .homepage {
+    position: relative;
+    background-color: #040f37;
+    width: 100%;
+    height: 788px;
+    overflow: hidden;
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--label-color-dark-primary);
+    font-family: var(--font-font);
+  }
+  

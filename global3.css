@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-font: font;
+    --font-roboto: Roboto;
+    --font-inter: Inter;
+    --default-regular-body: "SF Pro Text";
+    --font-size-xl: 20px;
+    --default-regular-body-size: 17px;
+    --font-size-8xs-5: 4.5px;
+    --font-size-5xs-3: 7.3px;
+    --font-size-xs: 12px;
+    --fill-color-dark-tertiary: rgba(118, 118, 128, 0.24);
+    --label-color-dark-primary: #fff;
+    --color-tomato: #ed553b;
+    --color-chocolate: #d36302;
+    --gap-9xs: 4px;
+    --padding-6xs: 7px;
+    --padding-5xs: 8px;
+    --br-10xs-1: 2.1px;
+    --br-11xs-7: 1.7px;
+    --br-11xs-9: 1.9px;
+    --br-11xs: 2px;
+    --br-11xl: 30px;
+    --br-xl: 20px;
+  }
+  
