@@ -1,0 +1,776 @@
+.confirm {
+    position: relative;
+  }
+  .sign-in {
+    position: absolute;
+    height: 4.44%;
+    width: 21.54%;
+    top: 81.22%;
+    right: 40.51%;
+    bottom: 14.34%;
+    left: 37.95%;
+    border-radius: 18.17px;
+    background-color: var(--color-violet);
+    box-shadow: 3.159471035003662px 3.159471035003662px 3.16px rgba(0, 0, 0, 0.25);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5.856269836425781px;
+    box-sizing: border-box;
+    cursor: pointer;
+    font-size: var(--font-size-xl);
+    color: #000;
+  }
+  .buy-now-child {
+    position: absolute;
+    height: 5.08%;
+    width: 100%;
+    top: 0;
+    right: -0.26%;
+    bottom: 94.92%;
+    left: 0.26%;
+    background-color: #37054d;
+  }
+  .time {
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 24.5px);
+    line-height: 16px;
+    font-weight: 600;
+  }
+  .battery-icon {
+    position: absolute;
+    top: 1.5px;
+    right: 0;
+    width: 26.5px;
+    height: 11.5px;
+  }
+  .div {
+    position: absolute;
+    top: 0;
+    right: 58.5px;
+    line-height: 16px;
+  }
+  .alarm-icon,
+  .bluetooth-icon {
+    position: absolute;
+    top: 3px;
+    right: -202.5px;
+    width: 14px;
+    height: 14px;
+    display: none;
+  }
+  .bluetooth-icon {
+    right: -217.5px;
+  }
+  .right-side {
+    position: absolute;
+    top: 3px;
+    right: 5.5px;
+    width: 90.5px;
+    height: 16px;
+    text-align: right;
+  }
+  .mobile-signal-icon {
+    position: relative;
+    width: 21px;
+    height: 14px;
+  }
+  .carrier {
+    position: relative;
+    letter-spacing: -0.05px;
+    line-height: 16px;
+    display: none;
+  }
+  .wifi-icon {
+    position: relative;
+    width: 15px;
+    height: 14px;
+  }
+  .left-side {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    text-align: left;
+  }
+  .statusbar-iphone-6-7-8-se {
+    position: absolute;
+    height: 2.54%;
+    width: 96.15%;
+    top: 1.27%;
+    right: 1.79%;
+    bottom: 96.19%;
+    left: 2.05%;
+    font-size: var(--font-size-xs);
+    font-family: var(--default-regular-body);
+  }
+  .rectangle {
+    position: absolute;
+    height: 12.31%;
+    width: 100%;
+    top: 87.69%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+    background-color: #250533;
+    box-shadow: 0-3px 4px #570475;
+  }
+  .vector-icon {
+    position: absolute;
+    height: 4.19%;
+    width: 11.54%;
+    top: 91.37%;
+    right: 79.23%;
+    bottom: 4.44%;
+    left: 9.23%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .buy-now-item {
+    height: 0.63%;
+    width: 1.28%;
+    top: 95.69%;
+    right: 62.82%;
+    bottom: 3.68%;
+    left: 35.9%;
+    background-color: var(--color-violet);
+    box-shadow: 0 0 8px 4px #570475;
+  }
+  .buy-now-child1,
+  .buy-now-inner,
+  .buy-now-item {
+    position: absolute;
+    border-radius: var(--br-11xs);
+  }
+  .buy-now-inner {
+    height: 0.63%;
+    width: 1.28%;
+    top: 95.69%;
+    right: 67.44%;
+    bottom: 3.68%;
+    left: 31.28%;
+    background-color: var(--color-violet);
+    box-shadow: 0 0 8px 4px #570475;
+  }
+  .buy-now-child1 {
+    height: 3.81%;
+    width: 9.88%;
+    top: 91.69%;
+    right: 61.78%;
+    bottom: 4.51%;
+    left: 28.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .mask-group-icon,
+  .mask-group-icon1,
+  .vector-icon1 {
+    position: absolute;
+    height: 4.82%;
+    width: 10.77%;
+    top: 91.37%;
+    right: 8.46%;
+    bottom: 3.81%;
+    left: 80.77%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .mask-group-icon,
+  .mask-group-icon1 {
+    height: 6.47%;
+    width: 11.54%;
+    top: 90.61%;
+    right: 42.82%;
+    bottom: 2.92%;
+    left: 45.64%;
+    object-fit: cover;
+  }
+  .mask-group-icon1 {
+    height: 5.33%;
+    width: 10%;
+    top: 90.99%;
+    right: 27.18%;
+    bottom: 3.68%;
+    left: 62.82%;
+  }
+  .delivery-to {
+    position: absolute;
+    width: 21.79%;
+    top: 17.39%;
+    left: 9.49%;
+    font-size: 15.8px;
+    text-align: justify;
+    display: inline-block;
+  }
+  .rectangle-div {
+    position: absolute;
+    height: 10.53%;
+    width: 81.79%;
+    top: 20.56%;
+    right: 10.26%;
+    bottom: 68.91%;
+    left: 7.95%;
+    border-radius: var(--br-5xs-9);
+    border: 1.1px solid var(--color-darkslateblue);
+    box-sizing: border-box;
+    opacity: 0.5;
+  }
+  .rectangle-icon,
+  .room-24px-2-icon {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .rectangle-icon {
+    height: 10.41%;
+    width: 23.08%;
+    top: 20.69%;
+    right: 68.46%;
+    bottom: 68.91%;
+    left: 8.46%;
+    border-radius: var(--br-5xs-9) 0 0 var(--br-5xs-9);
+    object-fit: cover;
+  }
+  .room-24px-2-icon {
+    height: 1.52%;
+    width: 3.08%;
+    top: 20.81%;
+    right: 56.41%;
+    bottom: 77.66%;
+    left: 40.51%;
+  }
+  .mehsana-nagar {
+    margin: 0;
+  }
+  .div1,
+  .mehsana-nagar-society-container,
+  .vipul-mhatre {
+    position: absolute;
+    left: 47.18%;
+    font-size: 14.24px;
+    text-align: left;
+    display: inline-block;
+  }
+  .mehsana-nagar-society-container {
+    height: 3.93%;
+    width: 41.54%;
+    top: 20.69%;
+    white-space: pre-wrap;
+  }
+  .div1,
+  .vipul-mhatre {
+    height: 2.03%;
+    width: 22.82%;
+    top: 25.38%;
+  }
+  .div1 {
+    height: 1.9%;
+    width: 30.51%;
+    top: 27.92%;
+  }
+  .local-phone-24px-2-icon,
+  .person-24px-1-2 {
+    position: absolute;
+    height: 1.52%;
+    width: 3.33%;
+    top: 25.38%;
+    right: 56.41%;
+    bottom: 73.1%;
+    left: 40.26%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .local-phone-24px-2-icon {
+    height: 1.4%;
+    width: 2.82%;
+    top: 28.43%;
+    right: 56.67%;
+    bottom: 70.18%;
+    left: 40.51%;
+  }
+  .buy-now-child2 {
+    position: absolute;
+    height: 2.66%;
+    width: 72.56%;
+    top: 32.36%;
+    right: 20%;
+    bottom: 64.97%;
+    left: 7.44%;
+    background-color: var(--color-violet);
+  }
+  .add-voucher,
+  .delivery-time {
+    position: absolute;
+    display: inline-block;
+  }
+  .delivery-time {
+    width: 22.05%;
+    top: 32.87%;
+    left: 9.49%;
+    color: var(--a3a3a);
+  }
+  .add-voucher {
+    width: 21.03%;
+    top: 58.63%;
+    left: 6.15%;
+    font-size: 10.54px;
+  }
+  .aug-31-2023,
+  .by-1159-pm {
+    position: absolute;
+    width: 20.77%;
+    top: 32.87%;
+    left: 34.62%;
+    color: var(--a3a3a);
+    display: inline-block;
+  }
+  .aug-31-2023 {
+    width: 20%;
+    left: 58.21%;
+  }
+  .edit {
+    width: 6.15%;
+    top: 32.99%;
+    left: 83.08%;
+    color: var(--color-darkslateblue);
+  }
+  .add-new-address,
+  .edit,
+  .rich-dad-poor {
+    position: absolute;
+    display: inline-block;
+  }
+  .add-new-address {
+    width: 28.21%;
+    top: 17.89%;
+    left: 62.56%;
+    font-size: 13.43px;
+  }
+  .rich-dad-poor {
+    width: 34.1%;
+    top: 36.68%;
+    left: 20%;
+  }
+  .frame-icon,
+  .frame-icon1,
+  .group-icon {
+    position: absolute;
+    height: 4.44%;
+    width: 34.36%;
+    top: 60.53%;
+    right: 57.44%;
+    bottom: 35.03%;
+    left: 8.21%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .frame-icon1,
+  .group-icon {
+    height: 4.57%;
+    width: 22.05%;
+    top: 60.66%;
+    right: 30.26%;
+    bottom: 34.77%;
+    left: 47.69%;
+  }
+  .group-icon {
+    height: 4.46%;
+    width: 13.26%;
+    top: 60.51%;
+    right: 10.63%;
+    bottom: 35.03%;
+    left: 76.11%;
+  }
+  .add-more {
+    position: absolute;
+    width: 11.03%;
+    top: 61.93%;
+    left: 77.18%;
+    font-size: 7.9px;
+    font-weight: 600;
+    font-family: var(--font-open-sans);
+    color: #767373;
+    display: inline-block;
+  }
+  .add-payment-method,
+  .payment-method {
+    position: absolute;
+    width: 35.13%;
+    top: 73.48%;
+    left: 50%;
+    font-size: 10.54px;
+    display: inline-block;
+  }
+  .payment-method {
+    width: 28.21%;
+    left: 5.13%;
+  }
+  .buy-now-child3 {
+    position: absolute;
+    height: 4.82%;
+    width: 81.03%;
+    top: 67.64%;
+    right: 10.77%;
+    bottom: 27.54%;
+    left: 8.21%;
+    border-radius: 4.74px;
+    background-color: var(--f7f9fc);
+  }
+  .note,
+  .type-your-note {
+    position: absolute;
+    width: 7.95%;
+    top: 65.74%;
+    left: 8.21%;
+    font-size: 10.54px;
+    display: inline-block;
+  }
+  .type-your-note {
+    width: 34.1%;
+    top: 69.16%;
+    left: 9.49%;
+    color: var(--a7a7a7);
+  }
+  .buy-now-child4,
+  .card-1-2,
+  .card-2-2 {
+    position: absolute;
+    height: 3.55%;
+    width: 35.64%;
+    top: 75.38%;
+    right: 56.41%;
+    bottom: 21.07%;
+    left: 7.95%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+    object-fit: cover;
+  }
+  .buy-now-child4,
+  .card-2-2 {
+    width: 36.92%;
+    top: 75.51%;
+    right: 10.77%;
+    bottom: 20.94%;
+    left: 52.31%;
+  }
+  .buy-now-child4 {
+    height: 6.85%;
+    width: 10.51%;
+    top: 36.17%;
+    right: 81.54%;
+    bottom: 56.98%;
+    left: 7.95%;
+  }
+  .buy-now-child5 {
+    position: absolute;
+    height: 2.54%;
+    width: 82.31%;
+    top: 44.29%;
+    right: 10.26%;
+    bottom: 53.17%;
+    left: 7.44%;
+    border-radius: 3.95px;
+    background-color: var(--edf1f7);
+  }
+  .price,
+  .tax {
+    position: absolute;
+    height: 1.4%;
+    width: 17.44%;
+    top: 44.92%;
+    left: 11.54%;
+    font-size: 12.64px;
+    color: var(--color-dimgray-100);
+    display: inline-block;
+  }
+  .price {
+    height: 1.52%;
+    width: 22.31%;
+    top: 44.8%;
+    left: 64.36%;
+  }
+  .book-price-1,
+  .gst,
+  .ship-fee-20,
+  .total {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 73.52px;
+    height: 11.8px;
+  }
+  .gst,
+  .ship-fee-20,
+  .total {
+    top: 20.88px;
+    width: 18.15px;
+  }
+  .ship-fee-20,
+  .total {
+    top: 41.75px;
+    left: -4.54px;
+    width: 74.43px;
+  }
+  .total {
+    top: 62.63px;
+    left: -0.91px;
+    width: 20.88px;
+  }
+  .book-price-1-item-parent {
+    position: absolute;
+    height: 9.64%;
+    width: 41.54%;
+    top: 47.72%;
+    right: 45.13%;
+    bottom: 42.64%;
+    left: 13.33%;
+    font-size: 9.39px;
+  }
+  .div2 {
+    position: absolute;
+    width: 3.85%;
+    top: 38.2%;
+    left: 77.95%;
+    font-size: 18.2px;
+    display: inline-block;
+  }
+  .add-circle-24px-2-icon,
+  .remove-circle-24px-2-icon {
+    position: absolute;
+    height: 3.05%;
+    width: 6.67%;
+    top: 37.82%;
+    right: 10.77%;
+    bottom: 59.14%;
+    left: 82.56%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .remove-circle-24px-2-icon {
+    right: 23.08%;
+    left: 70.26%;
+  }
+  .div3 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 21.78px;
+  }
+  .div3,
+  .div4,
+  .div5 {
+    display: inline-block;
+    height: 11.8px;
+  }
+  .div4 {
+    position: absolute;
+    top: 20.88px;
+    left: 0;
+    width: 9.08px;
+  }
+  .div5 {
+    top: 41.75px;
+    left: -2.72px;
+    width: 21.78px;
+  }
+  .div5,
+  .div6,
+  .parent {
+    position: absolute;
+  }
+  .div6 {
+    top: 62.63px;
+    left: 0;
+    display: inline-block;
+    width: 22.69px;
+    height: 11.8px;
+  }
+  .parent {
+    height: 9.64%;
+    width: 10.51%;
+    top: 47.72%;
+    right: 18.97%;
+    bottom: 42.64%;
+    left: 70.51%;
+    font-size: 9.39px;
+  }
+  .line-icon {
+    position: absolute;
+    height: 0.2%;
+    width: 91.03%;
+    top: 57.9%;
+    right: 5.64%;
+    bottom: 41.9%;
+    left: 3.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .add-gift-options,
+  .robert-t-kiyosaki {
+    position: absolute;
+    width: 30.77%;
+    top: 38.2%;
+    left: 21.28%;
+    font-size: 12.05px;
+    display: inline-block;
+  }
+  .add-gift-options {
+    width: 27.95%;
+    top: 40.86%;
+    left: 27.69%;
+    font-size: 14.22px;
+    color: var(--color-violet);
+  }
+  .interface-checkbox-unchecked,
+  .menu-icon,
+  .vector-icon2 {
+    position: absolute;
+    height: 2.41%;
+    width: 5.38%;
+    top: 40.48%;
+    right: 73.59%;
+    bottom: 57.11%;
+    left: 21.03%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .menu-icon,
+  .vector-icon2 {
+    height: 12.18%;
+    width: 24.62%;
+    top: 6.22%;
+    right: 31.03%;
+    bottom: 81.6%;
+    left: 44.36%;
+  }
+  .vector-icon2 {
+    height: 3.3%;
+    width: 8.97%;
+    top: 9.52%;
+    right: 87.69%;
+    bottom: 87.18%;
+    left: 3.33%;
+  }
+  .icon-magnifyingglass {
+    position: relative;
+    width: 15.63px;
+    height: 15.78px;
+  }
+  .placeholder {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+  }
+  .sf-symbol-microphone {
+    position: relative;
+    width: 11.88px;
+    height: 17.68px;
+  }
+  .searchfield {
+    position: absolute;
+    height: 5.2%;
+    width: 81.79%;
+    top: 8.76%;
+    right: 2.31%;
+    bottom: 86.04%;
+    left: 15.9%;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #628eff, #570475);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: 14px;
+    text-align: left;
+    font-size: var(--font-size-xl);
+  }
+  .menu-icon1 {
+    position: absolute;
+    height: 12.18%;
+    width: 24.62%;
+    top: 5.58%;
+    right: 30.77%;
+    bottom: 82.23%;
+    left: 44.62%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .dock {
+    position: absolute;
+    height: 6.73%;
+    width: 82.56%;
+    top: 7.99%;
+    right: 2.05%;
+    bottom: 85.28%;
+    left: 15.38%;
+    border-radius: 29px;
+    background-color: rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(80px);
+  }
+  .placeholder1 {
+    position: absolute;
+    width: 63.46%;
+    top: 9.52%;
+    left: 26.41%;
+    font-size: var(--font-size-xl);
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    text-align: left;
+    display: inline-block;
+  }
+  .icon-magnifyingglass1,
+  .sf-symbol-microphone1 {
+    position: absolute;
+    height: 2%;
+    width: 4.01%;
+    top: 10.15%;
+    right: 75.99%;
+    bottom: 87.85%;
+    left: 20%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .sf-symbol-microphone1 {
+    height: 2.24%;
+    width: 3.05%;
+    top: 10.28%;
+    right: 6.7%;
+    bottom: 87.48%;
+    left: 90.26%;
+  }
+  .buy-now {
+    position: relative;
+    background-color: #040f37;
+    width: 100%;
+    height: 788px;
+    overflow: hidden;
+    text-align: center;
+    font-size: 12.75px;
+    color: var(--label-color-dark-primary);
+    font-family: var(--font-font);
+  }
+  
