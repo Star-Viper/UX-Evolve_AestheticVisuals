@@ -1,4 +1,4 @@
-.iphone-14-1-child {
+.iphone-14-child {
   position: absolute;
   top: 529px;
   left: 44.31px;
@@ -187,8 +187,8 @@
   gap: 7.29px;
   font-size: 14.59px;
 }
-.iphone-14-1-inner,
-.iphone-14-1-item {
+.iphone-14-inner,
+.iphone-14-item {
   position: absolute;
   top: 526px;
   left: 298px;
@@ -197,7 +197,7 @@
   width: 122px;
   height: 122px;
 }
-.iphone-14-1-inner {
+.iphone-14-inner {
   top: -43px;
   left: 236px;
   width: 173px;
@@ -281,7 +281,7 @@
   font-size: var(--font-size-xs);
   font-family: var(--font-sf-pro-text);
 }
-.iphone-14-1 {
+.iphone-14 {
   position: relative;
   background-color: #040f37;
   width: 100%;
