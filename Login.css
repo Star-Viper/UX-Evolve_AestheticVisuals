@@ -292,3 +292,14 @@
   color: var(--label-color-dark-primary);
   font-family: var(--font-noto-sans);
 }
+.books-breeze {
+  position: absolute;
+  top: 54px;
+  left: 54px;
+  font-size: 40px;
+  font-family: var(--font-orelega-one);
+  color: #628eff;
+  display: inline-block;
+  width: 309px;
+  height: 46px;
+}
