@@ -1,0 +1,21 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-sf-pro-text: "SF Pro Text";
+    --font-noto-sans: "Noto Sans";
+    --font-size-xs: 12px;
+    --font-size-smi: 13px;
+    --font-size-sm-6: 13.6px;
+    --font-size-mid: 17px;
+    --label-color-dark-primary: #fff;
+    --color-dimgray: #4d4d4d;
+    --gap-9xs: 4px;
+    --gap-2xs-2: 10.2px;
+    --padding-xs-9: 11.9px;
+    --padding-sm-6: 13.6px;
+    --br-2xs-2: 10.2px;
+  }
+  
