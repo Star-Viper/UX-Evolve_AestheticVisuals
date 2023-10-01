@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-pontano-sans: "Pontano Sans";
+    --font-roboto: Roboto;
+    --font-font: font;
+    --font-open-sans: "Open Sans";
+    --default-regular-body: "SF Pro Text";
+    --font-size-lgi-3: 19.3px;
+    --font-size-xs: 12px;
+    --font-size-xl: 20px;
+    --default-regular-body-size: 17px;
+    --fill-color-dark-tertiary: rgba(118, 118, 128, 0.24);
+    --color-black: #000;
+    --color-violet: #e08cff;
+    --color-darkslategray: #373737;
+    --label-color-dark-primary: #fff;
+    --gap-9xs: 4px;
+    --padding-6xs: 7px;
+    --padding-5xs: 8px;
+    --br-51xl: 70px;
+    --br-base-2: 15.2px;
+    --br-11xl: 30px;
+  }
+  

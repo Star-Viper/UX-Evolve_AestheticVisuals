@@ -1,0 +1,548 @@
+.menu-icon,
+.vector-icon {
+  position: absolute;
+  height: 12.18%;
+  width: 24.62%;
+  top: 4.82%;
+  right: 31.28%;
+  bottom: 82.99%;
+  left: 44.1%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.vector-icon {
+  height: 3.3%;
+  width: 8.97%;
+  top: 8.12%;
+  right: 87.95%;
+  bottom: 88.58%;
+  left: 3.08%;
+}
+.icon-magnifyingglass {
+  position: relative;
+  width: 15.63px;
+  height: 15.78px;
+}
+.placeholder {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+}
+.sf-symbol-microphone {
+  position: relative;
+  width: 11.88px;
+  height: 17.68px;
+}
+.searchfield {
+  position: absolute;
+  height: 5.2%;
+  width: 81.79%;
+  top: 7.36%;
+  right: 2.56%;
+  bottom: 87.44%;
+  left: 15.64%;
+  border-radius: 16px;
+  background: linear-gradient(90deg, #628eff, #570475);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: var(--padding-6xs) var(--padding-5xs);
+  box-sizing: border-box;
+  gap: 14px;
+  text-align: left;
+}
+.menu-icon1 {
+  position: absolute;
+  height: 12.18%;
+  width: 24.62%;
+  top: 4.19%;
+  right: 31.03%;
+  bottom: 83.63%;
+  left: 44.36%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.dock {
+  position: absolute;
+  height: 6.73%;
+  width: 82.56%;
+  top: 6.6%;
+  right: 2.31%;
+  bottom: 86.68%;
+  left: 15.13%;
+  border-radius: 29px;
+  background-color: rgba(245, 245, 245, 0.3);
+  backdrop-filter: blur(80px);
+}
+.placeholder1 {
+  position: absolute;
+  width: 63.46%;
+  top: 8.12%;
+  left: 26.15%;
+  letter-spacing: -0.41px;
+  line-height: 22px;
+  text-align: left;
+  display: inline-block;
+}
+.icon-magnifyingglass1 {
+  position: absolute;
+  height: 2%;
+  width: 4.01%;
+  top: 8.76%;
+  right: 76.25%;
+  bottom: 89.24%;
+  left: 19.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cart-child {
+  position: absolute;
+  height: 5.08%;
+  width: 100%;
+  top: 0;
+  right: 0;
+  bottom: 94.92%;
+  left: 0;
+  background-color: #37054d;
+}
+.time {
+  position: absolute;
+  top: 15%;
+  left: calc(50% - 24.5px);
+  line-height: 16px;
+  font-weight: 600;
+}
+.battery-icon {
+  position: absolute;
+  top: 1.5px;
+  right: 0;
+  width: 26.5px;
+  height: 11.5px;
+}
+.div {
+  position: absolute;
+  top: 0;
+  right: 58.5px;
+  line-height: 16px;
+}
+.alarm-icon,
+.bluetooth-icon {
+  position: absolute;
+  top: 3px;
+  right: -202.5px;
+  width: 14px;
+  height: 14px;
+  display: none;
+}
+.bluetooth-icon {
+  right: -217.5px;
+}
+.right-side {
+  position: absolute;
+  top: 3px;
+  right: 5.5px;
+  width: 90.5px;
+  height: 16px;
+  text-align: right;
+}
+.mobile-signal-icon {
+  position: relative;
+  width: 21px;
+  height: 14px;
+}
+.carrier {
+  position: relative;
+  letter-spacing: -0.05px;
+  line-height: 16px;
+  display: none;
+}
+.wifi-icon {
+  position: relative;
+  width: 15px;
+  height: 14px;
+}
+.left-side {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+}
+.statusbar-iphone-6-7-8-se {
+  position: absolute;
+  height: 2.54%;
+  width: 96.15%;
+  top: 2.03%;
+  right: 2.05%;
+  bottom: 95.43%;
+  left: 1.79%;
+  font-size: var(--font-size-xs);
+  font-family: var(--default-regular-body);
+}
+.rectangle {
+  position: absolute;
+  height: 12.31%;
+  width: 100%;
+  top: 87.69%;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+  background-color: #250533;
+  box-shadow: 0-3px 4px #570475;
+}
+.vector-icon1 {
+  height: 4.19%;
+  width: 11.54%;
+  top: 91.37%;
+  right: 79.23%;
+  bottom: 4.44%;
+  left: 9.23%;
+}
+.cart-item,
+.mask-group-icon,
+.mask-group-icon1,
+.vector-icon1,
+.vector-icon2 {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cart-item {
+  height: 3.81%;
+  width: 9.88%;
+  top: 91.81%;
+  right: 61.78%;
+  bottom: 4.38%;
+  left: 28.33%;
+  border-radius: 2px;
+}
+.mask-group-icon,
+.mask-group-icon1,
+.vector-icon2 {
+  height: 4.82%;
+  width: 10.77%;
+  top: 91.37%;
+  right: 8.46%;
+  bottom: 3.81%;
+  left: 80.77%;
+}
+.mask-group-icon,
+.mask-group-icon1 {
+  height: 6.47%;
+  width: 11.54%;
+  top: 90.61%;
+  right: 42.82%;
+  bottom: 2.92%;
+  left: 45.64%;
+  object-fit: cover;
+}
+.mask-group-icon1 {
+  height: 5.33%;
+  width: 10%;
+  top: 90.99%;
+  right: 27.18%;
+  bottom: 3.68%;
+  left: 62.82%;
+}
+.cart-inner,
+.rich-dad-poor {
+  position: absolute;
+  top: 15.36%;
+}
+.cart-inner {
+  height: 2.98%;
+  width: 15.33%;
+  right: 26.6%;
+  bottom: 81.66%;
+  left: 58.07%;
+  border-radius: 11.76px;
+  background-color: #ff9a03;
+}
+.rich-dad-poor {
+  left: 13.37%;
+  font-size: 17.13px;
+}
+.robert-t-kiyosaki {
+  position: absolute;
+  top: 18.45%;
+  left: 16.61%;
+  font-size: 12.85px;
+}
+.star-icon {
+  height: 57.81%;
+  width: 31.55%;
+  top: 22.23%;
+  right: 68.45%;
+  bottom: 19.96%;
+  left: 0;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.b,
+.star-icon,
+.star-parent {
+  position: absolute;
+}
+.b {
+  height: 100%;
+  width: 54.93%;
+  top: 0;
+  left: 45.07%;
+  display: inline-block;
+}
+.star-parent {
+  height: 2.08%;
+  width: 11.01%;
+  top: 15.78%;
+  right: 28.76%;
+  bottom: 82.14%;
+  left: 60.23%;
+  font-size: 11.64px;
+  font-family: var(--font-open-sans);
+}
+.k-reviews {
+  position: absolute;
+  top: 18.78%;
+  left: 56.77%;
+  font-size: 11.42px;
+}
+.line-icon,
+.rectangle-icon {
+  position: absolute;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-icon {
+  height: 27.24%;
+  width: 36.92%;
+  top: 23.69%;
+  right: 54.24%;
+  bottom: 49.07%;
+  left: 8.84%;
+  object-fit: cover;
+}
+.line-icon {
+  height: 0.22%;
+  width: 86.15%;
+  top: 21.66%;
+  right: 8.46%;
+  bottom: 78.12%;
+  left: 5.38%;
+}
+.the-author-explains {
+  margin: 0;
+}
+.the-author-explains-container {
+  position: absolute;
+  height: 17.53%;
+  width: 36.71%;
+  top: 23.98%;
+  left: 48.35%;
+  font-size: 16px;
+  text-align: justify;
+  display: inline-block;
+}
+.group-child {
+  position: absolute;
+  height: 105.66%;
+  width: 103.66%;
+  top: -2.83%;
+  right: -1.83%;
+  bottom: -2.83%;
+  left: -1.83%;
+  border-radius: 15.16px;
+  background-color: #ffcafc;
+  border: 2.5px solid #09030e;
+  box-sizing: border-box;
+}
+.div1 {
+  height: 26.39%;
+  width: 43.94%;
+  top: 64.15%;
+  left: 7.93%;
+}
+.div1,
+.div2,
+.hardcover {
+  position: absolute;
+  display: inline-block;
+}
+.div2 {
+  height: 26.39%;
+  width: 43.94%;
+  top: 64.15%;
+  left: 47.56%;
+  text-decoration: line-through;
+  color: var(--color-darkslategray);
+}
+.hardcover {
+  height: 35.85%;
+  width: 69.51%;
+  top: 23.58%;
+  left: 14.63%;
+  font-family: var(--font-roboto);
+}
+.rectangle-parent {
+  position: absolute;
+  height: 11.33%;
+  width: 35.41%;
+  top: 54.04%;
+  right: 57.04%;
+  bottom: 34.63%;
+  left: 7.54%;
+  box-shadow: 8.421051979064941px 8.421051979064941px 10.95px
+    rgba(0, 0, 0, 0.25);
+  font-size: 19.28px;
+  color: var(--color-black);
+}
+.group-item {
+  position: absolute;
+  height: 101.89%;
+  width: 101.22%;
+  top: -0.94%;
+  right: -0.61%;
+  bottom: -0.94%;
+  left: -0.61%;
+  border-radius: 15.16px;
+  background-color: #ececec;
+  border: 0.8px solid #864c83;
+  box-sizing: border-box;
+}
+.audiobook {
+  position: absolute;
+  height: 35.85%;
+  width: 69.51%;
+  top: 23.58%;
+  left: 5.49%;
+  font-family: var(--font-roboto);
+  display: inline-block;
+}
+.media-headphones {
+  position: absolute;
+  height: 22.64%;
+  width: 14.63%;
+  top: 23.59%;
+  right: 6.71%;
+  bottom: 53.77%;
+  left: 78.66%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.rectangle-group {
+  position: absolute;
+  height: 11.33%;
+  width: 35.41%;
+  top: 54.04%;
+  right: 16.88%;
+  bottom: 34.63%;
+  left: 47.71%;
+  box-shadow: 8.421051979064941px 8.421051979064941px 10.95px
+    rgba(0, 0, 0, 0.25);
+  font-size: 19.28px;
+  color: var(--color-black);
+}
+.cart-child1,
+.rectangle-div {
+  position: absolute;
+  height: 7.11%;
+  width: 57.95%;
+  top: 68.78%;
+  right: 25.64%;
+  bottom: 24.11%;
+  left: 16.41%;
+  border-radius: 70.04px;
+  background-color: var(--color-violet);
+  box-shadow: 3.3684210777282715px 3.3684210777282715px 3.37px
+    rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+.cart-child1 {
+  width: 58.95%;
+  top: 77.44%;
+  right: 24.87%;
+  bottom: 15.44%;
+  left: 16.18%;
+}
+.add-to-cart {
+  position: absolute;
+  height: 3.53%;
+  width: 47.5%;
+  top: 69.86%;
+  left: 32.38%;
+  font-size: 21.78px;
+  line-height: 42.2px;
+  font-family: var(--font-pontano-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.add-to-cart1,
+.add-to-cart2 {
+  position: absolute;
+  height: 4.81%;
+  width: 9.72%;
+  top: 69.92%;
+  right: 70.54%;
+  bottom: 25.27%;
+  left: 19.74%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.add-to-cart2 {
+  top: 78.51%;
+  right: 70.65%;
+  bottom: 16.68%;
+  left: 19.64%;
+}
+.buy-now {
+  position: absolute;
+  height: 4.19%;
+  width: 56.41%;
+  top: 77.79%;
+  left: 32.05%;
+  font-size: 25.87px;
+  line-height: 50.11px;
+  font-family: var(--font-pontano-sans);
+  color: var(--color-black);
+  text-align: left;
+  display: inline-block;
+}
+.sf-symbol-microphone1 {
+  position: absolute;
+  height: 2.24%;
+  width: 3.05%;
+  top: 8.88%;
+  right: 6.95%;
+  bottom: 88.87%;
+  left: 90%;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+}
+.cart {
+  position: relative;
+  background-color: #040f37;
+  width: 100%;
+  height: 788px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xl);
+  color: var(--label-color-dark-primary);
+  font-family: var(--font-font);
+}
