@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  
+  :root {
+    --font-font: font;
+    --font-open-sans: "Open Sans";
+    --default-regular-body: "SF Pro Text";
+    --font-size-xl: 20px;
+    --font-size-3xs-5: 9.5px;
+    --font-size-4xs-9: 8.9px;
+    --font-size-xs: 12px;
+    --default-regular-body-size: 17px;
+    --fill-color-dark-tertiary: rgba(118, 118, 128, 0.24);
+    --label-color-dark-primary: #fff;
+    --f7f9fc: #f7f9fc;
+    --color-violet: #e08cff;
+    --color-orange: #ff9a03;
+    --a3a3a: #3a3a3a;
+    --a7a7a7: #a7a7a7;
+    --gap-9xs: 4px;
+    --padding-6xs: 7px;
+    --padding-5xs: 8px;
+    --br-10xs-9: 2.9px;
+    --br-10xs: 3px;
+    --br-10xs-2: 2.2px;
+    --br-11xl: 30px;
+  }
+  
