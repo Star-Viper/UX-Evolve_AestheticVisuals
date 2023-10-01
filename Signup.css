@@ -1,0 +1,336 @@
+.signup-child,
+.signup-inner,
+.signup-item {
+  position: absolute;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #530061, #0d0a30);
+}
+.signup-child {
+  top: 529px;
+  left: 44.31px;
+  width: 192px;
+  height: 192px;
+  transform: rotate(62.5deg);
+  transform-origin: 0 0;
+}
+.signup-inner,
+.signup-item {
+  top: 493px;
+  left: 311px;
+  width: 122px;
+  height: 122px;
+}
+.signup-inner {
+  top: -43px;
+  left: 236px;
+  width: 173px;
+  height: 173px;
+}
+.time {
+  position: absolute;
+  top: 15%;
+  left: calc(50% - 24.5px);
+  line-height: 16px;
+  font-weight: 600;
+}
+.battery-icon {
+  position: absolute;
+  top: 1.5px;
+  right: 0;
+  width: 26.5px;
+  height: 11.5px;
+}
+.div {
+  position: absolute;
+  top: 0;
+  right: 58.5px;
+  line-height: 16px;
+}
+.alarm-icon,
+.bluetooth-icon {
+  position: absolute;
+  top: 3px;
+  right: -202.5px;
+  width: 14px;
+  height: 14px;
+  display: none;
+}
+.bluetooth-icon {
+  right: -217.5px;
+}
+.right-side {
+  position: absolute;
+  top: 3px;
+  right: 5.5px;
+  width: 90.5px;
+  height: 16px;
+  text-align: right;
+}
+.mobile-signal-icon {
+  position: relative;
+  width: 21px;
+  height: 14px;
+}
+.carrier {
+  position: relative;
+  letter-spacing: -0.05px;
+  line-height: 16px;
+  display: none;
+}
+.wifi-icon {
+  position: relative;
+  width: 15px;
+  height: 14px;
+}
+.left-side {
+  position: absolute;
+  top: 3px;
+  left: 4px;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: var(--gap-9xs);
+  text-align: left;
+}
+.statusbar-iphone-6-7-8-se {
+  position: absolute;
+  top: 10px;
+  left: calc(50% - 180px);
+  width: 375px;
+  height: 20px;
+}
+.signup1 {
+  position: relative;
+  font-weight: 600;
+}
+.just-some-details {
+  position: relative;
+  font-size: 13.22px;
+  font-weight: 500;
+}
+.login-text,
+.username {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.username {
+  border-radius: 9.92px;
+  border: 0.8px solid var(--label-color-dark-primary);
+  box-sizing: border-box;
+  width: 330.53px;
+  flex-direction: row;
+  align-items: center;
+  padding: 11.568448066711426px 13.221083641052246px;
+}
+.email-phone {
+  position: relative;
+}
+.password {
+  border-radius: 9.92px;
+  border: 0.8px solid var(--label-color-dark-primary);
+  box-sizing: border-box;
+  width: 331px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 11.568448066711426px 13.221083641052246px;
+}
+.fluentcheckbox-checked-16-fil-icon {
+  position: relative;
+  width: 14.87px;
+  height: 14.87px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.remember-me {
+  position: relative;
+  font-weight: 500;
+}
+.password-rem,
+.remember {
+  justify-content: flex-start;
+}
+.remember {
+  display: none;
+  flex-direction: row;
+  align-items: center;
+  gap: 3.31px;
+  font-size: 13.22px;
+}
+.password-rem {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 9.92px;
+}
+.login {
+  border-radius: 9.92px;
+  background: linear-gradient(90.57deg, #628eff, #8543cf 48.75%, #570475);
+  width: 330.53px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 11.568448066711426px 8.263176918029785px;
+  box-sizing: border-box;
+}
+.forgot-password {
+  position: relative;
+  font-size: 13.22px;
+  font-weight: 500;
+  display: none;
+}
+.login-bt-fp {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 9.92px;
+}
+.credentials,
+.upper-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.credentials {
+  gap: 20.66px;
+  font-size: 16.53px;
+}
+.upper-section {
+  gap: 11.57px;
+}
+.or-child {
+  position: relative;
+  border-top: 1.7px solid var(--color-dimgray);
+  box-sizing: border-box;
+  width: 142.13px;
+  height: 1.65px;
+}
+.or {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16.53px;
+}
+.devicongoogle {
+  position: relative;
+  width: 34.71px;
+  height: 34.71px;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.devicongoogle-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 14.87px;
+}
+.other-logins,
+.upper-section-parent {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.other-logins {
+  align-items: center;
+  gap: 9.92px;
+  font-size: 13.22px;
+  color: var(--color-dimgray);
+}
+.upper-section-parent {
+  align-items: flex-start;
+  gap: 13.22px;
+  z-index: 0;
+}
+.frame-child {
+  z-index: 1;
+}
+.customer-care,
+.customer-care-wrapper,
+.support-wrapper,
+.terms-conditions-wrapper {
+  width: 121px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.customer-care,
+.customer-care-wrapper,
+.support-wrapper {
+  width: 53px;
+}
+.customer-care,
+.customer-care-wrapper {
+  width: 97px;
+}
+.customer-care {
+  margin: 0 !important;
+  position: absolute;
+  top: 575px;
+  left: 22.96px;
+  border-radius: 4.28px;
+  background: linear-gradient(
+    180deg,
+    rgba(98, 98, 98, 0),
+    rgba(98, 98, 98, 0.07)
+  );
+  width: 285.09px;
+  align-items: center;
+  padding: 2.850895643234253px 4.27634334564209px;
+  box-sizing: border-box;
+  gap: 13px;
+  z-index: 2;
+  font-size: var(--font-size-smi);
+}
+.already-registered-login {
+  position: absolute;
+  margin: 0 !important;
+  top: 547px;
+  left: 75px;
+  font-size: 14.59px;
+  font-weight: 500;
+  z-index: 3;
+}
+.frame-parent {
+  position: absolute;
+  top: 116px;
+  left: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 43.79px;
+  text-align: left;
+  font-size: 29.75px;
+  font-family: var(--font-noto-sans);
+}
+.dark-pink-24-icon {
+  position: absolute;
+  top: 39px;
+  left: 18px;
+  width: 43.69px;
+  height: 43.69px;
+  overflow: hidden;
+}
+.signup {
+  position: relative;
+  background-color: #040f37;
+  width: 100%;
+  height: 788px;
+  overflow: hidden;
+  text-align: center;
+  font-size: var(--font-size-xs);
+  color: var(--label-color-dark-primary);
+  font-family: var(--font-sf-pro-text);
+}
