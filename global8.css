@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    line-height: normal;
+  }
+  :root {
+    --font-font: font;
+    --font-podkova: Podkova;
+    --default-regular-body: "SF Pro Text";
+    --font-size-xl: 20px;
+    --font-size-5xl-6: 24.6px;
+    --font-size-xs: 12px;
+    --default-regular-body-size: 17px;
+    --fill-color-dark-tertiary: rgba(118, 118, 128, 0.24);
+    --label-color-dark-primary: #fff;
+    --color-lightgray: #cbcfd0;
+    --color-indigo: #570475;
+    --gap-9xs: 4px;
+    --padding-6xs: 7px;
+    --padding-5xs: 8px;
+    --br-31xl-8: 50.8px;
+    --br-11xl: 30px;
+  }
+  

@@ -1,0 +1,476 @@
+.account-settings-child {
+    position: absolute;
+    height: 5.08%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 94.92%;
+    left: 0;
+    background-color: #37054d;
+  }
+  .time {
+    position: absolute;
+    top: 15%;
+    left: calc(50% - 24.5px);
+    line-height: 16px;
+    font-weight: 600;
+  }
+  .battery-icon {
+    position: absolute;
+    top: 1.5px;
+    right: 0;
+    width: 26.5px;
+    height: 11.5px;
+  }
+  .div {
+    position: absolute;
+    top: 0;
+    right: 58.5px;
+    line-height: 16px;
+  }
+  .alarm-icon,
+  .bluetooth-icon {
+    position: absolute;
+    top: 3px;
+    right: -202.5px;
+    width: 14px;
+    height: 14px;
+    display: none;
+  }
+  .bluetooth-icon {
+    right: -217.5px;
+  }
+  .right-side {
+    position: absolute;
+    top: 3px;
+    right: 5.5px;
+    width: 90.5px;
+    height: 16px;
+    text-align: right;
+  }
+  .mobile-signal-icon {
+    position: relative;
+    width: 21px;
+    height: 14px;
+  }
+  .carrier {
+    position: relative;
+    letter-spacing: -0.05px;
+    line-height: 16px;
+    display: none;
+  }
+  .wifi-icon {
+    position: relative;
+    width: 15px;
+    height: 14px;
+  }
+  .left-side {
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-9xs);
+    text-align: left;
+  }
+  .statusbar-iphone-6-7-8-se {
+    position: absolute;
+    height: 2.54%;
+    width: 96.15%;
+    top: 1.27%;
+    right: 2.05%;
+    bottom: 96.19%;
+    left: 1.79%;
+    font-size: var(--font-size-xs);
+    font-family: var(--default-regular-body);
+  }
+  .rectangle {
+    position: absolute;
+    height: 12.31%;
+    width: 100%;
+    top: 87.69%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: var(--br-11xl) var(--br-11xl) 0 0;
+    background-color: #250533;
+    box-shadow: 0-3px 4px #570475;
+  }
+  .vector-icon {
+    height: 4.19%;
+    width: 11.54%;
+    top: 91.37%;
+    right: 79.23%;
+    bottom: 4.44%;
+    left: 9.23%;
+  }
+  .account-settings-item,
+  .vector-icon,
+  .vector-icon1 {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .account-settings-item {
+    height: 3.81%;
+    width: 9.88%;
+    top: 91.81%;
+    right: 61.78%;
+    bottom: 4.38%;
+    left: 28.33%;
+    border-radius: 2px;
+  }
+  .vector-icon1 {
+    height: 4.82%;
+    width: 10.77%;
+    top: 91.37%;
+    right: 8.46%;
+    bottom: 3.81%;
+    left: 80.77%;
+  }
+  .mask-group-icon {
+    height: 6.47%;
+    width: 11.54%;
+    top: 90.61%;
+    right: 42.82%;
+    bottom: 2.92%;
+    left: 45.64%;
+    object-fit: cover;
+  }
+  .mask-group-icon,
+  .mask-group-icon1,
+  .sf-symbol-microphone {
+    position: absolute;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .mask-group-icon1 {
+    height: 5.33%;
+    width: 10%;
+    top: 90.99%;
+    right: 27.18%;
+    bottom: 3.68%;
+    left: 62.82%;
+    object-fit: cover;
+  }
+  .sf-symbol-microphone {
+    height: 2.24%;
+    width: 3.05%;
+    top: 10.68%;
+    right: 5.9%;
+    bottom: 87.08%;
+    left: 91.06%;
+  }
+  .group-child {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    border-radius: 50.78px;
+    background-color: var(--color-indigo);
+    cursor: pointer;
+  }
+  .account {
+    position: absolute;
+    height: 42.19%;
+    width: 39.47%;
+    top: 24%;
+    left: 17.27%;
+    display: inline-block;
+  }
+  .group-item,
+  .rectangle-parent {
+    position: absolute;
+    height: 10.68%;
+    width: 100%;
+    top: 0;
+    right: 0;
+    bottom: 89.32%;
+    left: 0;
+  }
+  .group-item {
+    height: 100%;
+    bottom: 0;
+    border-radius: 50.78px;
+    background-color: var(--color-indigo);
+  }
+  .orders {
+    position: absolute;
+    height: 42.19%;
+    width: 39.47%;
+    top: 23.44%;
+    left: 12.87%;
+    display: inline-block;
+  }
+  .arrow-caret-circle-right {
+    position: absolute;
+    top: 11.85px;
+    left: 253.08px;
+    width: 29.62px;
+    height: 29.62px;
+    overflow: hidden;
+  }
+  .rectangle-group {
+    position: absolute;
+    height: 10.68%;
+    width: 100%;
+    top: 17.86%;
+    right: 0;
+    bottom: 71.45%;
+    left: 0;
+    cursor: pointer;
+  }
+  .language {
+    position: absolute;
+    height: 42.19%;
+    width: 39.47%;
+    top: 23.76%;
+    left: 19.01%;
+    display: inline-block;
+  }
+  .arrow-caret-circle-right1 {
+    position: absolute;
+    top: 12.7px;
+    left: 253.08px;
+    width: 29.62px;
+    height: 29.62px;
+    overflow: hidden;
+  }
+  .rectangle-container {
+    position: absolute;
+    height: 10.68%;
+    width: 100%;
+    top: 35.73%;
+    right: 0;
+    bottom: 53.59%;
+    left: 0;
+    cursor: pointer;
+  }
+  .costumer-service {
+    position: absolute;
+    height: 42.19%;
+    width: 71.64%;
+    top: 24.56%;
+    left: 17.25%;
+    display: inline-block;
+  }
+  .arrow-caret-circle-right2 {
+    position: absolute;
+    top: 11.85px;
+    left: 252.23px;
+    width: 29.62px;
+    height: 29.62px;
+    overflow: hidden;
+  }
+  .group-div {
+    position: absolute;
+    height: 10.68%;
+    width: 100%;
+    top: 53.59%;
+    right: 0;
+    bottom: 35.73%;
+    left: 0;
+    cursor: pointer;
+  }
+  .rate-this-app {
+    position: absolute;
+    height: 42.19%;
+    width: 71.64%;
+    top: 23.51%;
+    left: 10.36%;
+    display: inline-block;
+  }
+  .rectangle-parent1 {
+    position: absolute;
+    height: 10.68%;
+    width: 100%;
+    top: 71.45%;
+    right: 0;
+    bottom: 17.86%;
+    left: 0;
+  }
+  .log-out {
+    position: absolute;
+    height: 42.19%;
+    width: 71.64%;
+    top: 22.47%;
+    left: 0;
+    display: inline-block;
+  }
+  .arrow-caret-circle-right4 {
+    position: absolute;
+    top: 11.85px;
+    left: 248.84px;
+    width: 29.62px;
+    height: 29.62px;
+    overflow: hidden;
+  }
+  .rectangle-parent2 {
+    position: absolute;
+    height: 10.68%;
+    width: 100%;
+    top: 89.32%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  .arrow-caret-circle-right5 {
+    position: absolute;
+    top: 9px;
+    left: 248px;
+    width: 29.62px;
+    height: 29.62px;
+    overflow: hidden;
+  }
+  .frame-child,
+  .group-parent {
+    position: absolute;
+    top: 12px;
+    left: -10.16px;
+    width: 58.4px;
+    height: 479.42px;
+  }
+  .group-parent {
+    height: 64.34%;
+    width: 74.22%;
+    top: 18.53%;
+    right: 9.88%;
+    bottom: 17.13%;
+    left: 15.9%;
+    box-shadow: 3.3856427669525146px 3.3856427669525146px 3.39px
+      rgba(0, 0, 0, 0.25);
+    font-size: 24.55px;
+    color: var(--color-lightgray);
+    font-family: var(--font-podkova);
+  }
+  .menu-icon,
+  .vector-icon2 {
+    position: absolute;
+    height: 12.18%;
+    width: 24.62%;
+    top: 6.73%;
+    right: 32.05%;
+    bottom: 81.09%;
+    left: 43.33%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .vector-icon2 {
+    height: 3.3%;
+    width: 8.97%;
+    top: 10.03%;
+    right: 88.72%;
+    bottom: 86.68%;
+    left: 2.31%;
+  }
+  .icon-magnifyingglass {
+    position: relative;
+    width: 15.63px;
+    height: 15.78px;
+  }
+  .placeholder {
+    flex: 1;
+    position: relative;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+  }
+  .sf-symbol-microphone1 {
+    position: relative;
+    width: 11.88px;
+    height: 17.68px;
+  }
+  .searchfield {
+    position: absolute;
+    height: 5.2%;
+    width: 81.79%;
+    top: 9.26%;
+    right: 3.33%;
+    bottom: 85.53%;
+    left: 14.87%;
+    border-radius: 16px;
+    background: linear-gradient(90deg, #628eff, #570475);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    padding: var(--padding-6xs) var(--padding-5xs);
+    box-sizing: border-box;
+    gap: 14px;
+    text-align: left;
+  }
+  .menu-icon1 {
+    position: absolute;
+    height: 12.18%;
+    width: 24.62%;
+    top: 6.09%;
+    right: 31.79%;
+    bottom: 81.73%;
+    left: 43.59%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .dock {
+    position: absolute;
+    height: 6.73%;
+    width: 82.56%;
+    top: 8.5%;
+    right: 3.08%;
+    bottom: 84.77%;
+    left: 14.36%;
+    border-radius: 29px;
+    background-color: rgba(245, 245, 245, 0.3);
+    backdrop-filter: blur(80px);
+  }
+  .placeholder1 {
+    position: absolute;
+    width: 63.46%;
+    top: 10.03%;
+    left: 25.38%;
+    letter-spacing: -0.41px;
+    line-height: 22px;
+    text-align: left;
+    display: inline-block;
+  }
+  .icon-magnifyingglass1,
+  .sf-symbol-microphone2 {
+    position: absolute;
+    height: 2%;
+    width: 4.01%;
+    top: 10.66%;
+    right: 77.02%;
+    bottom: 87.34%;
+    left: 18.97%;
+    max-width: 100%;
+    overflow: hidden;
+    max-height: 100%;
+  }
+  .sf-symbol-microphone2 {
+    height: 2.24%;
+    width: 3.05%;
+    top: 10.79%;
+    right: 7.72%;
+    bottom: 86.97%;
+    left: 89.23%;
+  }
+  .account-settings {
+    position: relative;
+    background-color: #040f37;
+    width: 100%;
+    height: 788px;
+    overflow: hidden;
+    text-align: center;
+    font-size: var(--font-size-xl);
+    color: var(--label-color-dark-primary);
+    font-family: var(--font-font);
+  }
+  
