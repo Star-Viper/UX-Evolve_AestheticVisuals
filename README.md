@@ -1,5 +1,5 @@
 # UX-Evolve_AestheticVisuals
-![Screenshot 2023-10-02 052506](https://github.com/Star-Viper/UX-Evolve_AestheticVisuals/assets/125679638/580f94d5-545b-446a-a484-78eac5c79276)
+![Screenshot 2023-10-02 060910](https://github.com/Star-Viper/UX-Evolve_AestheticVisuals/assets/125679638/03f36a4f-c301-43e6-a123-d6bf5bb674e2)
 ![Screenshot 2023-10-02 060350](https://github.com/Star-Viper/UX-Evolve_AestheticVisuals/assets/125679638/0a810457-cce4-4dca-b66d-5982de6637b8)
 ![Screenshot 2023-10-02 060415](https://github.com/Star-Viper/UX-Evolve_AestheticVisuals/assets/125679638/1c9bb429-2150-48cb-8e14-424b0ac88d89)
 ![Screenshot 2023-10-02 060449](https://github.com/Star-Viper/UX-Evolve_AestheticVisuals/assets/125679638/9dff3a3d-073f-4850-b0ef-2ac651fa2814)
